@@ -2,63 +2,137 @@
   "users": [
     {
       "id": 1,
-      "name": "Gertrudis Tatterton",
-      "age": 18,
-      "email": "gtatterton0@ehow.com"
+      "username": "nishant123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "email": "nishantkr488@gmail.com",
+      "password": "nishantkr488"
     },
     {
       "id": 2,
-      "name": "Gail Newbatt",
-      "age": 53,
-      "email": "gnewbatt1@un.org"
+      "username": "rahul123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "email": "rahul@gmail.com",
+      "password": "rahul"
+    },
+    {
+      "username": "vikas123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "email": "vikas@gmail.com",
+      "password": "vikas",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "username": "nishant123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "How to sort an array in Javascript?",
+      "questionDescription": "I'm struggling with sorting an array in Javascript. Can someone please provide guidance?",
+      "language": "Javascript",
+      "upvotes": 9,
+      "answers": 3,
+      "postedDate": "2023-05-30"
+    },
+    {
+      "id": 2,
+      "username": "rahul123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "Whats the difference between npm and npx?",
+      "questionDescription": "I was asked this question in interview. Please guide me!",
+      "language": "Javascript",
+      "upvotes": 12,
+      "answers": 3,
+      "postedDate": "2023-05-30"
     },
     {
       "id": 3,
-      "name": "Walliw Wilstead",
-      "age": 49,
-      "email": "wwilstead2@tripadvisor.com"
+      "username": "rahul123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "How to center a div?",
+      "questionDescription": "Do i need to use display flex or position property?",
+      "language": "Java",
+      "upvotes": 10,
+      "answers": 3,
+      "postedDate": "2023-05-30"
     },
     {
       "id": 4,
-      "name": "Abran Proback",
-      "age": 29,
-      "email": "aproback3@theglobeandmail.com"
+      "username": "vikas123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "What are sementic tags?",
+      "questionDescription": "I was asked this question in interview. Please guide me!",
+      "language": "Python",
+      "upvotes": 8,
+      "answers": 3,
+      "postedDate": "2023-05-30"
     },
     {
       "id": 5,
-      "name": "Roda Chappelow",
-      "age": 31,
-      "email": "rchappelow4@oaic.gov.au"
+      "username": "vikas123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "What are event loops?",
+      "questionDescription": "I do have an idea but tell me briefly",
+      "language": "Javascript",
+      "upvotes": 17,
+      "answers": 3,
+      "postedDate": "2023-05-30"
     },
     {
       "id": 6,
-      "name": "Karney Wylie",
-      "age": 22,
-      "email": "kwylie5@miitbeian.gov.cn"
+      "username": "nishant123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "What is the use of setTimeout?",
+      "questionDescription": "How does it work in webAPI?",
+      "language": "Javascript",
+      "upvotes": 5,
+      "answers": 3,
+      "postedDate": "2023-05-30"
     },
     {
-      "id": 7,
-      "name": "Cammi Pimbley",
-      "age": 63,
-      "email": "cpimbley6@nyu.edu"
+      "username": "nishant123",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "questionTitle": "What is process.nextTick?",
+      "questionDescription": "I do know about call stack execution but i need some help tbh",
+      "language": "Javascript",
+      "upvotes": 0,
+      "answers": 1,
+      "postedDate": "2023-11-24",
+      "id": 7
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "questionId": 1,
+      "userAvatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "username": "JaneSmith456",
+      "answerText": "To sort an array in Javascript, you can use the built-in 'sort' method...",
+      "postedDate": "2023-05-31"
     },
     {
-      "id": 8,
-      "name": "Gavra Manning",
-      "age": 43,
-      "email": "gmanning7@lycos.com"
+      "id": 2,
+      "questionId": 2,
+      "userAvatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "username": "SamJohnson789",
+      "answerText": "Another approach to sorting an array in Javascript is by using a custom comparison function...",
+      "postedDate": "2023-06-01"
     },
     {
-      "id": 9,
-      "name": "Zachary Seward",
-      "age": 45,
-      "email": "zseward8@oracle.com"
+      "id": 3,
+      "questionId": 1,
+      "userAvatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "username": "EmilyBrownXYZ",
+      "answerText": "I recommend using a popular Javascript library such as 'Lodash' for sorting arrays...",
+      "postedDate": "2023-06-01"
     },
     {
-      "id": 10,
-      "name": "Chucho Norssister",
-      "age": 20,
-      "email": "cnorssister9@mayoclinic.com"
+      "questionId": 1,
+      "userAvatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "username": "nishant123",
+      "answerText": "Thats a good question, but i cant help you sorry",
+      "postedDate": "2023-05-31",
+      "id": 4
     }
   ]
 }
